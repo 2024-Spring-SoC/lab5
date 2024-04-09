@@ -11,7 +11,7 @@ set target_library \
 # ---------------------------------------
 analyze -format sverilog $env(LAB_PATH)/RTL/DMAC_CFG.sv
 analyze -format sverilog $env(LAB_PATH)/RTL/DMAC_ENGINE.sv
-analyze -format sverilog $env(LAB_PATH)/RTL/DMAC_FIFO.sv
+#analyze -format sverilog $env(LAB_PATH)/RTL/DMAC_FIFO.sv
 analyze -format sverilog $env(LAB_PATH)/RTL/DMAC_TOP.sv
 
 set design_name         DMAC_TOP
